@@ -1,5 +1,5 @@
 {
-      "name": "YoneRobot",
+      "name": "RAVAN OFFICIAL",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "yone"
       ],   
-   "repository": "https://t.me/itsMeLegend",
+   "repository": "https://github.com/KINGOFASURA/RAVAN-OFFICIAL",
    "addons": [
       {
          "options": {
@@ -21,17 +21,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "2075782466:AAG7kBvHUj7uAgOmO5NhOdgYqEXmmCL11ag"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "3759094"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "8088ae65cca904006f803f989691f0e9"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -41,12 +41,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "2086596376"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": ""
+         "value": "2075782466"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -58,12 +58,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "Baapu_hu_mai"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": ""
+         "value": "cute_robot_hai"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -106,7 +106,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1936648846"
+         "value": "2086596376"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
