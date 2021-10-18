@@ -96,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [yone🙋‍♀️](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg) 
+`ʜɪ.. ɪ'ᴍ` [RAVAN🙋‍♀️](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 yone_IMG = "https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg"
@@ -347,9 +347,9 @@ def help_button(update, context):
 @run_async
 def yone_about_callback(update, context):
     query = update.callback_query
-    if query.data == "yone_":
+    if query.data == "RAMAN_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *RAVANOFFICIAL*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
