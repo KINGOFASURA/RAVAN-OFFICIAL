@@ -1,4 +1,4 @@
-from RAVANOFFICIAL.mongo import client as db_x
+from RAVAN-OFFICIAL.mongo import client as db_x
 
 lydia = db_x["CHATBOT"]
 
