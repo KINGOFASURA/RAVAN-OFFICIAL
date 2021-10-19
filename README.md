@@ -16,7 +16,7 @@ h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟�
 </a>
 
 ## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=KINGOFASURA-12&repo=RAVANOFFICIAL&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=KINGOFASURA-12&repo=RAVANOFFICIAL&theme=BLUE)
 
 ## 🅓🅔🅟🅛🅞🅨
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KINGOFASURA/RAVAN-OFFICIAL)
