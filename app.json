@@ -1,6 +1,6 @@
 {
-      "name": "Asuna Robot",
-      "description": "A Powerful  Telegram group management bot.",
+      "name": "RAVANOFICIAL",
+      "description": "A LOVELY  Telegram group management bot.",
       "keywords": [
          "telegram",
          "advance",
@@ -9,8 +9,8 @@
          "Asuna"
       ],
     
-   "logo":    "https://telegra.ph/file/4977514f30ff13c11363b.jpg",  
-   "repository": "https://github.com/HuntingBots/https://github.com/HuntingBots/AsunaRobot",
+   "logo":    "https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg",  
+   "repository": "https://github.com/KINGOFASURA/https://github.com/KINGOFASURA/RAVANOFICIAL",
    "addons": [
           {
          "options": {
@@ -23,17 +23,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "2075782466:AAG7kBvHUj7uAgOmO5NhOdgYqEXmmCL11ag"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "3759094"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "8088ae65cca904006f803f989691f0e9"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -43,13 +43,13 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1606221784"
+         "value": "2086596376"
      },
 
       "REDIS_URL": {
          "description": "Get REDIS_URL from  https://app.redislabs.com, used for run your bot modules.",
          "required": true,
-         "value": "" 
+         "value": "redis-10801.c1.asia-northeast1-1.gce.cloud.redislabs.com:10801" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -61,7 +61,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot with the @",
-         "value": ""
+         "value": "@Cutie_robot_bot"
       },
 
       "BOT_ID": {
@@ -71,17 +71,17 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "The_Ghost_Hunter"
+         "value": " D3VILRAVANXOP"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "AsunaRobotSupport"
+         "value": "Cutie_robot_hai"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://Sahilop:sahilop0@cluster0.bnt90.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -99,7 +99,7 @@
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "@AsunaLogUpdate"
+         "value": "@Cutie_robot_hai"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -121,7 +121,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "2086596376"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
