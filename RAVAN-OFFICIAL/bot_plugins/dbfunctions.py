@@ -1,4 +1,4 @@
-from RAVANOFFICIAL.mongo import db
+from RAVAN-OFFICIAL.mongo import db
 from typing import Dict, List, Union
 
 
