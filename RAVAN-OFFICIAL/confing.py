@@ -1,5 +1,5 @@
 from envparse import env
-from AsunaRobot import LOGGER
+from RAVANOFFICIAL import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
