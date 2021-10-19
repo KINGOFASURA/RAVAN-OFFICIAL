@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from RAVAN-OFFICIAL.bot_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -18,7 +18,7 @@ from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_1 import (  # pylint:disable=imp
     mix,
     normal_blur,
 )
-from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_2 import (  # pylint:disable=import-error
+from RAVAN-OFFICIAL.bot_plugins.ImageEditor.edit_2 import (  # pylint:disable=import-error
     cartoon,
     circle_with_bg,
     circle_without_bg,
@@ -28,13 +28,13 @@ from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_2 import (  # pylint:disable=imp
     sepia_mode,
     sticker,
 )
-from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_3 import (  # pylint:disable=import-error
+from RAVAN-OFFICIAL.bot_plugins.ImageEditor.edit_3 import (  # pylint:disable=import-error
     black_border,
     blue_border,
     green_border,
     red_border,
 )
-from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_4 import (  # pylint:disable=import-error
+from RAVAN-OFFICIAL.bot_plugins.ImageEditor.edit_4 import (  # pylint:disable=import-error
     inverted,
     removebg_plain,
     removebg_sticker,
@@ -44,7 +44,7 @@ from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_4 import (  # pylint:disable=imp
     rotate_270,
     round_sticker,
 )
-from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-error
+from RAVAN-OFFICIAL.bot_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-error
     normalglitch_1,
     normalglitch_2,
     normalglitch_3,
@@ -56,7 +56,7 @@ from RAVANOFFICIAL.bot_plugins.ImageEditor.edit_5 import (  # pylint:disable=imp
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from RAVANOFFICIAL import pbot as Client
+from RAVAN-OFFICIAL import pbot as Client
 
 lel = 00000000
 # pylint:disable=import-error
