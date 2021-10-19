@@ -25,9 +25,9 @@ from RAVANOFFICIAL import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from RAVANOFFICIAL.modules import ALL_MODULES
-from RAVANOFFICIAL.modules.helper_funcs.chat_status import is_user_admin
-from RAVANOFFICIAL.modules.helper_funcs.misc import paginate_modules
+from RAVAN-OFFICIAL.modules import ALL_MODULES
+from RAVAN-OFFICIAL.modules.helper_funcs.chat_status import is_user_admin
+from RAVAN-OFFICIAL.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -97,7 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star RAVANOFFICIAL",
+            text="📺 Star RAVAN-OFFICIAL",
             url="https://telegram.dog/cute_robot_hai",
         ),
     ],
@@ -116,7 +116,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [RAVANOFFICIAL ⚙️]("https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg") 
+`Hi.. I'm` [RAVAN-OFFICIAL ⚙️]("https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
@@ -138,7 +138,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("RAVANOFFICIAL.modules." + module_name)
+    imported_module = importlib.import_module("RAVAN-OFFICIAL.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -370,16 +370,16 @@ def asuna_about_callback(update, context):
     query = update.callback_query
     if query.data == "asuna_":
         query.message.edit_text(
-            text=""" ❗ I'm *RAVANOFFICIAL*, a LOVELY group management bot built to help you manage your group easily.
+            text=""" ❗ I'm *RAVAN-OFFICIAL*, a LOVELY group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_shasa's licensed under the GNU General Public License v3.0_
+                 \n\n_asuna's licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://github.com/KINGOFASURA/RAVAN-OFFICIAL).
-                 \n\nIf you have any question about *RAVANOFFICIAL*, let us know at .""",
+                 \n\nIf you have any question about *RAVAN-OFFICIAL*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -400,7 +400,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *RAVANOFFICIAL*
+            text=""" Hi..👸 I'm *RAVAN-OFFICIAL*
                  \nHere is the [Source Code](https://github.com/KINGOFASURA/RAVAN-OFFICIAL) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
