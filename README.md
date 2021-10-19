@@ -1,35 +1,30 @@
-<p align="center">
-    <a href="https://github.com/KINGOFASURA/RAVAN-OFFICIAL"><img src="https://img.shields.io/github/stars/KINGOFASURA/RAVANOFFICIAL?label=Stars&style=flat-square&logo=github&color=F10060" alt="Stars" /></a>
+h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭❞ </h1>
+
+
+<p align = "center"><a herf = "https://t.me/Baapu_hu_mai" alt = "Zaid"><img src = "" width = "900"></a></p>
+
+<p align = "center">
+<a href = "https://python.org">
+<img src = "https://forthebadge.com/images/badges/made-with-python.svg">
 </p>
-<p align="center">
-    <a href="https://app.codacy.com/manual/noob-kittu/YoneRobot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/KINGOFASURA/RAVAN-OFFICIAL"> <img src="https://img.shields.io/github/repo-size/KINGOFASURA/RAVAN OFFICIAL?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/KINGOFASURA/RAVANOFFICIAL/commits/prince"> <img src="https://img.shields.io/github/last-commit/KINGOFASURA/RAVANOFFICIAL?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/KINGOFASURA/RAVANOFFICIAL/issues"> <img src="https://img.shields.io/github/issues/KINGOFASURA/RAVANOFFICIAL?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/KINGOFASURA/RAVANOFFICIAL/network/members"> <img src="https://img.shields.io/github/forks/KINGOFASURA/RAVANOFFICIAL?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+</a>
+
+<p align = "center">
+<a href = "https://github.com/KINGOFASURA/RAVAN-OFFICIAL">
+<img src = "https://forthebadge.com/images/badges/open-source.svg">
 </p>
+</a>
 
-<p align="center">
-  <img src="https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg">
-</p>
+## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=KINGOFASURA-12&repo=RAVANOFFICIAL&theme=dark)
 
-# RAVANOFFICIAL
-
-## How To Host
-The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/KINGOFASURA/RAVAN-OFFICIAL"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
- 
-CREDITS
-```
-❤️ Mafia Userbot - Himanshu
-❤️ MashaRobot = Dark Prince 
-❤️ DaisyX = Inuka
-❤️ TheHamkerCat = WBB
-
-This Bot Is Developed By Baapu_hu_mai ! 
+## 🅓🅔🅟🅛🅞🅨
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KINGOFASURA/RAVAN-OFFICIAL)
 
 
+## 🆅🅴🆁🅸🅰🅱🅻🅴🆂
+[ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/KINGOFASURA/RAVAN-OFFICIAL/blob/master/Configuration)
 
-
-```
+## 🆂🆄🅿🅿🅾🆁🆃
+[![RAVAN](https://img.shields.io/badge/RAVAN-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/Baapu_hu_mai)</br></br>
+[![RAVAN](https://img.shields.io/badge/
