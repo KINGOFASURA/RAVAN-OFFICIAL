@@ -1,45 +1,89 @@
-# Copyright (C) 2021 AsunaRobot
-# made by @The_Ghost_Hunter on Telegram.
-# github account : https://github.com/HuntingBots/
-# This file is part of AsunaRobot (Telegram Bot)
-
-import asyncio
+from .. import telethn
 from telethon import events
-from telethon.tl.types import ChannelParticipantsAdmins
-from AsunaRobot import telethn
-from AsunaRobot.events import register as asuna
+import asyncio
+Alain = telethn
 
+#By @Alain_xD
 
-@asuna(pattern="^/tagall ?(.*)")
-async def _(event):
-    if event.fwd_from:
-        return
-    mentions = "Hi Friends I'm Asuna I Call To All Of You"
-    chat = await event.get_input_chat()
-    async for x in telethn.iter_participants(chat, 100):
-        mentions += f" \n [{x.first_name}](tg://user?id={x.id})"
-    await event.reply(mentions)
-    await event.delete()
-
-
-@asuna(pattern="^/users ?(.*)")
-async def _(event):
-    if event.fwd_from:
-        return
-    mentions = "Users : "
-    chat = await event.get_input_chat()
-    async for x in telethn.iter_participants(chat, filter=ChannelParticipantsAdmins):
-        mentions += f" \n [{x.first_name}](tg://user?id={x.id})"
-    reply_message = None
-    if event.reply_to_msg_id:
-        reply_message = await event.get_reply_message()
-        await reply_message.reply(mentions)
-    else:
-        await event.reply(mentions)
-    await event.delete()
-
-
-__mod_name__ = "Tagger"
-__help__ = """
-- /tagall : Tag everyone in a chat
 """
+#@bot.on(events.NewMessage(pattern="[!/](tagall)$"))
+async def _(event):
+   k = event.text.split(" ", maxsplit=1)[1]
+   if not event.text
+   lel = 0
+   lell = ""
+   async for x in bot.iter_partcipants(event.chat_id):
+    lell +=  f"[{x.first_name}](tg://user?id={x.id})"
+    lel += 1
+    if lel == 7:
+     await bot.send_message(event.chat_id, f"{k}\n\n{lell}")
+     asyncio.sleep(1)
+     lell = ""
+     lel = 0
+     if not k:
+      sed = await event.get_reply_message()
+      no = sed.text
+      if lel == 7:
+       await bot.send_message(event.chat_id, f"{sed}\n\n{lell}")
+       asyncio.sleep(1)
+       lell = ""
+       lel = 0
+"""
+
+
+@Alain.on(events.NewMessage(pattern="/tagall ?(.*)"))
+async def _(event):
+  admin = await event.client.get_permissions(event.chat_id, event.sender.id)
+  if not admin.is_admin:
+   return await event.reply("`Pehele admin to bano sor`")
+  if not event.reply_to and not event.pattern_match.group(1):
+
+      return await event.reply("**Eʀʀᴏʀ:**\n`Nᴏ ᴛᴇxᴛ ᴡᴀs ɢɪᴠᴇɴ!`")
+  
+  if not event.reply_to:
+   sed = event.text.split(None, 1)[1]
+
+   lel = 0
+
+   lell = ""
+
+   async for x in event.client.iter_participants(event.chat_id):
+
+    lell +=  f"[{x.first_name}](tg://user?id={x.id}) **,**"
+
+    lel += 1
+
+    if lel == 5:
+
+     await event.client.send_message(event.chat_id, f"{sed}\n\n{lell}")
+
+     await asyncio.sleep(2)
+
+     lell = ""
+
+     lel = 0
+
+    
+  else:
+
+     pro = await event.get_reply_message()
+
+     ab = 0
+
+     bc = ""
+
+     async for y in event.client.iter_participants(event.chat_id):
+
+      bc +=  f"[{y.first_name}](tg://user?id={y.id}) **,**"
+
+      ab += 1
+
+      if ab == 5:
+
+       await event.client.send_message(event.chat_id, f"{pro.text}\n\n{bc}")
+
+       await asyncio.sleep(2)
+
+       bc = ""
+
+       ab = 0
