@@ -6,9 +6,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@master
+        uses: jacobtomlinson/gha-find-replace@all
         with:
-          find: "Asuna Robot"
+          find: "AsunaRobot"
           replace: "RAVAN-OFFICIAL"
       - name: Pull All Updates        uses: stefanzweifel/git-auto-commit-action@v4
         with:
