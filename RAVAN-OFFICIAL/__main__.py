@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from AsunaRobot import (
+from RAVANOFFICIAL import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from AsunaRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AsunaRobot.modules import ALL_MODULES
-from AsunaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AsunaRobot.modules.helper_funcs.misc import paginate_modules
+from RAVANOFFICIAL.modules import ALL_MODULES
+from RAVANOFFICIAL.modules.helper_funcs.chat_status import is_user_admin
+from RAVANOFFICIAL.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -74,56 +74,56 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🧚‍♀️](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
-`I am powerful  group management bot.
-Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
-You can find my list of available commands with! Hit` *🔰Commands*   
+`Hello` [🧚‍♀️](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg) `My name is` *RAVANOFFICIAL*
+`I am LOVELY  group management bot.
+Build by D3VILRAVANXOP for Your Telegram Group , I specialize in managing Entertainment type groups.
+You can find my list of available commands with! Hit` *😎Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/My_Asuna_Robot?startgroup=true"
+            text="😙 ADD ME TO YOUR GROUP 😚", url="t.me/Cutie_robot_bot?starrgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(text="❗ ABOUT", callback_data="asuna_"),
-        InlineKeyboardButton(text="🔰 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="😘 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"
+            text="🤴 OWNER", url="https://telegram.dog/D3VILRAVANXOP"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star Wolrd Entertainment",
-            url="https://telegram.dog/fire_world_entertainment",
+            text="📺 Star RAVANOFFICIAL",
+            url="https://telegram.dog/cute_robot_hai",
         ),
     ],
     [
-        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/AsunaLogUpdate"),
+        InlineKeyboardButton(text="🗨️ Logis", url="https://telegram.dog/cute_robot_hai"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/cute_robot_hai"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+            text="💾 Source Code", url="https://github.com/KINGOFASURA/RAVAN-OFFICIAL"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna ⚙️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [RAVANOFFICIAL ⚙️]("https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249b4.png"
+ASUNA_IMG = "https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @The_Ghost_Hunter\
+ You can support the project via [Paypal](#) or by contacting @D3VILRAVANXOP\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -138,7 +138,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AsunaRobot.modules." + module_name)
+    imported_module = importlib.import_module("RAVANOFFICIAL.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -370,7 +370,7 @@ def asuna_about_callback(update, context):
     query = update.callback_query
     if query.data == "asuna_":
         query.message.edit_text(
-            text=""" ❗ I'm *Asuna*, a powerful group management bot built to help you manage your group easily.
+            text=""" ❗ I'm *RAVANOFFICIAL*, a LOVELY group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -378,12 +378,12 @@ def asuna_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/HuntingBots/AsunaRobot).
-                 \n\nIf you have any question about *Asuna*, let us know at .""",
+                 \nHere is the [💾Repository](https://github.com/KINGOFASURA/RAVAN-OFFICIAL).
+                 \n\nIf you have any question about *RAVANOFFICIAL*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="asuna_back")]]
+                [[InlineKeyboardButton(text="Back", callback_data="RAVANOFFICIAL_back")]]
             ),
         )
     elif query.data == "asuna_back":
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *Asuna*
-                 \nHere is the [Source Code](https://github.com/HuntingBots/AsunaRobot) .""",
+            text=""" Hi..👸 I'm *RAVANOFFICIAL*
+                 \nHere is the [Source Code](https://github.com/KINGOFASURA/RAVAN-OFFICIAL) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -641,7 +641,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784 and DONATION_LINK:
+        if OWNER_ID != 2086596376 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -691,7 +691,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[Yes I'm alive now!](https://telegra.ph/file/fefbe49175499b0646495.mp4)",
+                "[Yes I'm alive now!](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg)",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
