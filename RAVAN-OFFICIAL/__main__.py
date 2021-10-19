@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🧚‍♀️](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg) `My name is` *RAVANOFFICIAL*
+`Hello` [🧚‍♀️](https://te.legra.ph/file/7158e0e21ff8114c4b8a7.jpg) `My name is` *RAVAN-OFFICIAL*
 `I am LOVELY  group management bot.
 Build by D3VILRAVANXOP for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *😎Commands*   
