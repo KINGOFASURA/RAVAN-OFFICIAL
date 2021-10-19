@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop RAVANOFICIAL
-net start RAVANOFICIAL
+net stop RAVAN-OFFICIAL
+net start RAVAN-OFFICIAL
